@@ -9,11 +9,11 @@ async function obtenerDatos() {
     new Chart(ctx, {
         type: 'bar',
         data: {
-            label: 'xd',
             labels: labels,
             datasets: [{
             data: amounts,
             backgroundColor: 'hsl(10, 79%, 65%)',
+            borderRadius: 5,
             }]
         },
         options: {
@@ -21,7 +21,7 @@ async function obtenerDatos() {
             scales: {
             y: {
                 beginAtZero: true,
-                display: false
+                display: false,
             },
             x: {
                 grid: {

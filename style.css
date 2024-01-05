@@ -41,3 +41,30 @@ main {
     width: 100%;
     max-width: 400px;
 }
+.line {
+    height: 2px;
+    width: 100%;
+    color: hsl(27, 66%, 92%);
+    margin: 20px 0px;
+}
+.bottom {
+    display: flex;
+    justify-content: space-between;
+    align-items: end;
+}
+.totalMonth p {
+    margin-bottom: 5px;
+    color: hsl(25, 47%, 15%);
+}
+.totalMonth .balanceMonth {
+    font-weight: 700;
+    font-size: 22px;
+}
+.percentage p {
+    text-align: right;
+    font-weight: 700;
+}
+.percentage p:last-child {
+    font-weight: 400;
+    color: hsl(25, 47%, 15%);
+}
