@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Frontend Mentor | Expenses chart component</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,400;9..40,700&display=swap" rel="stylesheet">
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<main>
+  <section class="header">
+    <div class="balance">
+      <p>My Balance</p>
+      <span class="balance">$921.48</span>
+    </div>
+    <img src="images/logo.svg" alt="Logo">
+  </section>
+  <section class="chart-container">
+    <h2>Spending - Last 7 days</h2>
+    <div class="chart">
+      <canvas id="myChart"></canvas>
+    </div>
+  </section>
+</main>
+<script src="chart.js"></script>
+</body>
+</html>
