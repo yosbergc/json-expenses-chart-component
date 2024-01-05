@@ -25,7 +25,7 @@ async function obtenerDatos() {
             },
             x: {
                 grid: {
-                    drawBorder: false,
+                    display: false,
                 }
             }
             },
