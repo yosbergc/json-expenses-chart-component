@@ -7,7 +7,7 @@
 main {
     display: flex;
     flex-direction: column;
-    justify-content: start;
+    justify-content: center;
     align-items: center;
     min-height: 100vh;
     background-color: hsl(27, 66%, 92%);
@@ -67,4 +67,10 @@ main {
 .percentage p:last-child {
     font-weight: 400;
     color: hsl(25, 47%, 15%);
+}
+@media (min-width: 1280px) {
+    .header, .chart-container {
+        max-width: none;
+        width: 40%;
+    }
 }
